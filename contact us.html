@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1-0">
+    <title>KERALA TOURISM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css\contact.css">
+</head>
+<body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><b>KERALA TOURISM</b></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="district.html">WHERE TO GO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact us.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <input type="button" onclick="parent.location='signup.html'" name="signup" value="signup">
+                        </li>
+                        <li>
+                            <input type="button" onclick="parent.location='login.html'" name="login" value="login">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="contact-form">
+        <h1>CONTACT US</h1>
+        <div class="txtb">
+        <label>full name :</label>
+        <input type="text" name="full name" id="full name" placeholder="enter your name">
+        </div>
+
+        <div class="txtb">
+        <label for="e-mail">e-mail :</label>
+        <input type="text" name="e-mail" id="e-mail" placeholder="enter your e-mail">
+        </div>
+
+        <div class="txtb">
+        <label for="phone number">phone number :</label>
+        <input type="number" name="" id="" placeholder="enter your mobile number">
+        </div>
+
+        <div class="txtb">
+        <label for="message">message :</label>
+        <br>
+        <textarea name="" id="" cols="15" rows="10"></textarea>
+        </div>
+
+        <button class="btn btn-success" onclick="parent.location='home.html'">send</button>
+    </div>
+</body>
+</html>

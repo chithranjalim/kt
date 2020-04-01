@@ -1,0 +1,109 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background : url(sunrise_at_beach_4k_8k.jpg) ;
+        background-size: cover;
+    }
+.contact-form
+    {
+        width: 85%;
+        max-width: 400px;
+        position: absolute;
+        background-color: rgba(97, 14, 175, 0.815);
+        left: 50%;
+        right: 50%;
+        transform: translate(-50% -50%);
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 0 20px #000000b3;
+    }
+
+.contact-form h1
+    {
+        margin: 0;
+        font-weight: 200;
+    }
+
+.txtb
+    {
+        border: 1px solid gray;
+        margin: 8px 0;
+        padding: 12px 18px;
+        border-radius: 8px;  
+    }
+
+.txtb label
+    {
+        display: block;
+        text-align: left;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: rgb(12, 12, 12);
+        font-weight: 200;
+    }
+
+.txtb input, .txtb textarea
+    {
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+        margin-top: 6px;
+        font-weight: 400;
+    }
+
+.button
+    {
+        display: block;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 14px 0;
+        margin-top: 8px;
+        width: 100%;
+
+        
+}
+.navbar-link
+    {
+        font: 200;
+        color: blue;
+        padding: 10;
+    }
+
+.navbar-right input[type="button"]
+    {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 0;
+        text-align: center;
+        border: 2px solid greenyellow;
+        padding: 10px 8px;
+        width: 120px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+.navbar-right
+    {
+        text-align: right;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+.box input[type="button"]:hover
+    {
+        background-color: greenyellow;
+    }
+.btn-default
+    {
+        color: rgb(19, 204, 50);
+        border-color: rgb(19, 204, 50);
+    }

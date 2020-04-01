@@ -1,0 +1,125 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: indigo;
+        color: rgb(81, 226, 81);
+    }
+.box
+    {
+        width: 500px;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #191919;
+    }
+
+.box h1
+    {
+        color: whitesmoke;
+        font-weight: 500;
+    }
+.box input[type="text"], .box input[type="password"]
+    {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #9506f5;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+    }
+.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="date"]:focus
+    {
+        border-color: rgb(9, 243, 224);
+        width: 280px;
+    }
+
+.box input[type="button"]
+    {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid greenyellow;
+        padding: 14px 10px;
+        width: 160px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+.box input[type="button"]:hover
+    {
+        background-color: greenyellow;
+    }
+
+::-webkit-scrollbar
+    {
+        background-color: black;
+        width: 14px;
+    }
+
+::-webkit-scrollbar-track
+    {
+        box-shadow: rgba(241, 5, 171, 0.945);
+        border-radius: 10px;
+    }
+
+::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        background: linear-gradient(120deg, #3424db, #34495e );
+    }
+    .navbar-link
+    {
+        font: 200;
+        color: blue;
+        padding: 10;
+    }
+
+.navbar-right input[type="button"]
+    {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 0;
+        text-align: center;
+        border: 2px solid greenyellow;
+        padding: 10px 8px;
+        width: 120px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+.navbar-right
+    {
+        text-align: right;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+.box input[type="button"]:hover
+    {
+        background-color: greenyellow;
+    }
+.btn-default
+    {
+        color: rgb(19, 204, 50);
+        border-color: rgb(19, 204, 50);
+    }
